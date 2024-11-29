@@ -83,7 +83,6 @@ nav a:hover {
 }
 
 .upper-content{
-    padding-top: 60px;
     grid-column: 1 /span 2;
     padding-left: 150px;
 }
