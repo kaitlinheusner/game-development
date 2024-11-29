@@ -75,9 +75,37 @@ nav a:hover {
     color: #F5F5DC;
 }
 
-/* bloop */
+body {
+    margin: 0;
+}
 
-
+.content {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 20px;
+    align-items: center;
+    padding: 20px;
+}
+    
+.heroimg {
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+    
+.game-img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+    
+.upper-content {
+    grid-column: 4 / span 3;
+}
+    
+.hero-text {
+    text-align: center;
+}
+    
 footer{
     display: flex;
     justify-content: space-between;
