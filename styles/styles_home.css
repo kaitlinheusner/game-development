@@ -88,9 +88,6 @@ nav a:hover {
     padding-left: 150px;
 }
 
-.upper-text{
-}
-
 .hero{
     grid-column: 5 / span 2; 
     justify-self: end; 
