@@ -75,21 +75,22 @@ nav a:hover {
     color: #F5F5DC;
 }
 
-body {
-    margin: 0;
-}
-
 .content {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    grid-gap: 20px;
-    align-items: center;
-    padding: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: 20px;
+
 }
     
 .heroimg {
-    grid-column: 1 / span 3;
-    text-align: center;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    text-align: left;
+    align-self: start;
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
 }
     
 .game-img {
@@ -97,13 +98,57 @@ body {
     height: auto;
     border-radius: 10px;
 }
-    
+
 .upper-content {
-    grid-column: 4 / span 3;
+    grid-column: 2 / span 2;
+    grid-row: 1;
+    padding-right: 150px;
+    padding-left: 150px;
 }
-    
+
 .hero-text {
     text-align: center;
+    align-self: end;
+}
+
+#main-heading {
+    grid-column: 1 / span 3;
+    text-align: center;
+}
+
+.unity-card {
+    grid-column: 1;
+    grid-row: 3;
+    text-align: left;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.unreal-card {
+   grid-column: 2;
+   grid-row: 3;
+   text-align: left;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-top: 50px;
+}
+
+.game-text {
+    padding-top: 100px;
+}
+
+.godot-card {
+    grid-column: 3;
+    grid-row: 3;
+    text-align: left;
+    padding-right: 15px;
+
+}
+
+#closing-p {
+    grid-column: 1 / span 3;
+    text-align: center;
+    padding-bottom: 10px;
 }
     
 footer{
