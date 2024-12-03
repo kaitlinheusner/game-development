@@ -107,6 +107,7 @@ nav a:hover {
 #heroimg {
     width: 600px;
     height: auto;
+    filter: drop-shadow(10px 10px 10px navy);
 }
 
 .middle-content {
@@ -123,6 +124,7 @@ nav a:hover {
     padding-left: 100px;
     padding-top: 60px;
     width: 100%;
+    filter: drop-shadow(8px 8px 10px navy)
 }
 
 .lower-content{
