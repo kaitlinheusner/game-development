@@ -96,7 +96,10 @@ nav a:hover {
 }
 
 .herotext {
-    padding-top: 50px;
+    display: block; 
+    text-align: center; 
+    margin-top: 30px;
+    padding-bottom: 50px;
 }
 
 .main-content{
@@ -119,11 +122,16 @@ nav a:hover {
 
 .text{
     text-align: left;
+    
 }
 
 .middle{
+    grid-column: 1 / span 2;
     align-self: center;
     text-align: center;
+    padding-left: 350px;
+    padding-right: 350px;
+    padding-bottom: 50px;
 }
 
 footer{
