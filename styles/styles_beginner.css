@@ -93,6 +93,7 @@ nav a:hover {
 #heroimg {
     display: flex;
     justify-self: center;
+    filter: drop-shadow(8px 8px 10px navy)
 }
 
 .herotext {
@@ -122,7 +123,6 @@ nav a:hover {
 
 .text{
     text-align: left;
-    
 }
 
 .middle{
